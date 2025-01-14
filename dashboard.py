@@ -53,7 +53,7 @@ METRIC_CARD_STYLE = {
 
 def fetch_data(endpoint):
     try:
-        response = requests.get(f"https://sales-analytics-tz2v.onrender.com")
+        response = requests.get(f"https://sales-analytics-tz2v.onrender.com{endpoint}")
         return response.json()
     except Exception as e:
         print(f"Error fetching data from {endpoint}: {e}")
