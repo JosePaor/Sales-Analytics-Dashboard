@@ -1,8 +1,12 @@
-# Sales Dashboard
+# Sales Dashboard (Frontend)
 
 ## Description
 
-This project is an interactive sales dashboard that provides real-time insights into product sales performance. It uses `Dash` for data visualization and `FastAPI` for the backend that serves the data.
+This project is the **frontend** for an interactive sales dashboard that provides real-time insights into product sales performance. It uses **Dash** for data visualization, and it consumes data from a **FastAPI backend**.
+
+The **backend** for this project is developed using `FastAPI` and can be found in the following repository:
+
+**Backend Repository:** [Sales Analytics Backend](https://github.com/JosePaor/Sales-Analytics.git)
 
 ## Features
 
@@ -16,9 +20,7 @@ This project is an interactive sales dashboard that provides real-time insights 
 - [Dash](https://dash.plotly.com/)
 - [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/)
 - [Plotly](https://plotly.com/)
-- [FastAPI](https://fastapi.tiangolo.com/)
 - [Pandas](https://pandas.pydata.org/)
-- [SQLite](https://www.sqlite.org/index.html)
 
 ## Installation
 
